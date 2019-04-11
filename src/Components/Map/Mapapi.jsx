@@ -1,51 +1,47 @@
-import React, {Component} from 'react'
-import Axios from 'axios'
-import Map from './Map'
-
+import React, {Component} from 'react';
+import Axios from 'axios';
+import Map from './Map';
 
 const issUrl = 'http://api.open-notify.org/iss-now.json';
 
-
 export default class Mapapi extends Component{
-    constructor(props) {
-        super (props);
-        this.state = {
-            lat: {},
-            lon: {},
-            loading: true
-        }
+  constructor(props) {
+    super (props);
+    this.state = {
+      lat: {},
+      lon: {},
+      loading: true
     };
+  }
 
-
-
-componentDidMount() {
-    this.makeApiCall()
+  componentDidMount() {
+    this.makeApiCall();
     this.refreshApi = setInterval(() => {
-        this.makeApiCall()
-    }, 5000)
-}
+      this.makeApiCall();
+    }, 5000);
+  }
 
-componentWillUnmount() {
-    clearInterval(this.refreshApi)
-}
+  componentWillUnmount() {
+    clearInterval(this.refreshApi);
+  }
 
-makeApiCall(){
+  makeApiCall(){
     Axios.get(`${issUrl}`)
-    .then (response => {
-        console.log(response)
-        this.setState ({lat : response.data.iss_position.longitude , lon :response.data.iss_position.latitude, loading: false})
-    })
-    .catch(error => console.log(error));
-}
+      .then (response => {
+        console.log(response);
+        this.setState ({lat : response.data.iss_position.longitude , lon :response.data.iss_position.latitude, loading: false});
+      })
+      .catch(error => console.log(error));
+  }
 
-render() {
+  render() {
     if(this.state.loading){
-        return <p>Loading ...</p>
+      return <p>Loading ...</p>;
     }
     return(
-    <div>
+      <div>
         <Map lon = {this.state.lon} lat ={this.state.lat}/>
-    </div>
-    )
-}}
+      </div>
+    );
+  }}
 
