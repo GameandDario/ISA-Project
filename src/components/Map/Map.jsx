@@ -7,7 +7,7 @@ const LeafletMap = ({lat, lon}) => {
   const position = [lon, lat];
   
   return (
-    <Map center={position} zoom={10}
+    <Map center={position} zoom={5}
 
       onViewportChange={(e) => { console.log(e);}
       }>
