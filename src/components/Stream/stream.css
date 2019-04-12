@@ -1,0 +1,6 @@
+.videoLayout {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap !important;
+    background-color: black;
+}
