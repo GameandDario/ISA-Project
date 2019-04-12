@@ -1,4 +1,3 @@
-* eslint-disable quotes */
 // On appelle ce composant App avec <Stream />
 import React, { Component } from 'react';
 import VideoPlayer from 'react-simple-video-player';
@@ -13,7 +12,7 @@ export default class Stream extends Component {
     super(props);
     this.state = { 
       currentVideo: 'video1',
-      videoUrl: "https://www.youtube.com/watch?v=qnTsIVYxYkc"
+      videoUrl: 'https://www.youtube.com/watch?v=qnTsIVYxYkc'
     };
   }
 
@@ -43,20 +42,20 @@ VideoPlayer url="" height="" width="" aspectRatio=""
             <ButtonGroup vertical className="videoLayout">
               <Button className="videoLayout"
                 color="dark" 
-                onClick={() => this.onRadioBtnClick("video1", "https://www.youtube.com/watch?v=HtrMUqV1HQc")} 
-                disabled={this.state.currentVideo === "video1"}
+                onClick={() => this.onRadioBtnClick('video1', 'https://www.youtube.com/watch?v=HtrMUqV1HQc')} 
+                disabled={this.state.currentVideo === 'video1'}
               >Video 1</Button>
 
               <Button 
                 color="dark"
-                onClick={() => this.onRadioBtnClick("video2", "https://www.youtube.com/watch?v=4993sBLAzGA")} 
-                disabled={this.state.currentVideo === "video2"}
+                onClick={() => this.onRadioBtnClick('video2', 'https://www.youtube.com/watch?v=4993sBLAzGA')} 
+                disabled={this.state.currentVideo === 'video2'}
               >Video 2</Button>
                                     
               <Button
                 color="dark" 
-                onClick={() => this.onRadioBtnClick("video3", "https://www.youtube.com/watch?v=qnTsIVYxYkc")} 
-                disabled={this.state.currentVideo === "video3"}
+                onClick={() => this.onRadioBtnClick('video3', 'https://www.youtube.com/watch?v=qnTsIVYxYkc')} 
+                disabled={this.state.currentVideo === 'video3'}
               >Video 3</Button>
             </ButtonGroup>
             {/* *test* Affichage videoUrl
