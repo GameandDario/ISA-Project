@@ -10,8 +10,14 @@ export default class Mapapi extends Component{
     this.state = {
       lat: {},
       lon: {},
+      zoom: 4,
       loading: true
     };
+  }
+
+  updateZoom (zoom) {
+    this.setState({zoom});
+
   }
 
   componentDidMount() {
@@ -40,7 +46,9 @@ export default class Mapapi extends Component{
     }
     return(
       <div>
-        <Map lon = {this.state.lon} lat ={this.state.lat}/>
+        <Map lon = {this.state.lon} lat ={this.state.lat} updateZoom={(zoom)=> this.updateZoom(zoom)}
+          zoom= {this.state.zoom}
+        />
       </div>
     );
   }}
