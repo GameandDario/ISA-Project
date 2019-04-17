@@ -7,6 +7,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { faEnvelope, faKey, faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 
 import 'bootstrap/dist/css/bootstrap.css';
+import './App.css';
 import './components/Map/Map.css';
 library.add(faEnvelope, faKey, faSun, faMoon);
 
