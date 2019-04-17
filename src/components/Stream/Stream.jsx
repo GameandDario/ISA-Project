@@ -1,13 +1,13 @@
-// On appelle ce composant App avec <Stream />
+// Call App component with "<Stream/>"
 import React, { Component } from 'react';
 import VideoPlayer from 'react-simple-video-player';
 import { ButtonGroup, Button, Container, Row } from 'reactstrap';
 
-// Appel CSS de ce composant dans components/Stream (React se base sur la localisation de Stream.jsx)
+// Import CSS
 import './stream.css';
 
 export default class Stream extends Component {
-// Init du State avec un currentVideo(str) et videoUrl(url)
+//Initilising States with 2 states : currentVideo and videoUrl
   constructor (props) {
     super(props);
     this.state = { 
@@ -15,8 +15,7 @@ export default class Stream extends Component {
       videoUrl: 'https://www.youtube.com/watch?v=qnTsIVYxYkc'
     };
   }
-
-  // Fonction du clic sur bouton qui vient changer le State    
+  //On click button to modify states 
   onRadioBtnClick(currentVideo, videoUrl) {
     this.setState({ currentVideo, videoUrl });
   }
@@ -26,19 +25,10 @@ export default class Stream extends Component {
     return (
       <div>
         <Container className="videoLayout">
-
-          {/* *test* Affichage composant Stream 
-<h2>Composant Stream</h2>
-*/}
           <Row className="videoLayout">
-            {/* Appel de react-simple-video-player du type
-VideoPlayer url="" height="" width="" aspectRatio=""
-*/}
+            {/* Call react-simple-video */}
             <VideoPlayer url={this.state.videoUrl} autoplay />
-                                
-            {/* *test* Affichage composant Stream 
-<h2>Composant Stream</h2>
-*/}
+            
             <ButtonGroup vertical className="videoLayout">
               <Button className="videoLayout"
                 color="dark" 
@@ -58,9 +48,6 @@ VideoPlayer url="" height="" width="" aspectRatio=""
                 disabled={this.state.currentVideo === 'video3'}
               >Video 3</Button>
             </ButtonGroup>
-            {/* *test* Affichage videoUrl
-<p>Selected: {this.state.videoUrl}</p>
-*/}
           </Row>
         </Container>
       </div>

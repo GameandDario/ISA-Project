@@ -2,22 +2,20 @@
 
 h1 {
     font-family: 'Orbitron', sans-serif;
-
 }
 
 .mainNavBar {
     background-color: black;
 }
 
-
 .navbar-brand {
     color: white;
 }
 
 .navbar-toggler {
-    /* background-color:rgb(247, 243, 243); */
+    
     visibility: hidden !important;
-    /*Bouton Toggler caché par défaut*/
+    /*Toggle button default hide*/
     display: inline;
 }
 
@@ -59,10 +57,6 @@ h1 {
     position: relative;
 }
 
-.reflection:hover {
-    /* transform: scale(1.2); */
-}
-
 .reflection::after {
     content: '';
     position: absolute;
@@ -85,31 +79,15 @@ h1 {
     }
 }
 
-
 @keyframes sheen {
     100% {
         transform: rotateZ(60deg) translate(1em, -9em);
     }
 }
 
-
 .IsaLogo{
     width: 20vh;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (min-width: 413px) {
     .footerHeader {

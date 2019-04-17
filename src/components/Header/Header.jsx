@@ -6,12 +6,10 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  // NavLink,
   Button
 } from 'reactstrap';
 import './header.css';
 import FooterinHeader from './FooterinHeader';
-// import './Footer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import SwitchButton from './SwitchButton';
 
@@ -41,16 +39,13 @@ export default class Header extends React.Component {
               icon="moon" /></SwitchButton>{' '}
             <Button className="shiny" outline color="info"><FontAwesomeIcon
               icon="sun" /></Button>{' '}
-
           </NavItem>
           <NavbarToggler className="bg-dark light" onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
-
               <NavItem className="footerinHeader">
                 <FooterinHeader />
               </NavItem>
-
             </Nav>
           </Collapse>
         </Navbar>
