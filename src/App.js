@@ -10,7 +10,6 @@ import Footer from './components/Footer/footer';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faEnvelope, faKey, faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 import Header from './components/Header/Header';
-import BackGroundTest from './components/BackgroundTest/BackGroundTest';
 library.add(faEnvelope, faKey, faSun, faMoon);
 
 class App extends Component {
@@ -19,7 +18,6 @@ class App extends Component {
       <div className="App">
         <Header />
         <MapApi />
-        <BackGroundTest />
         <Stream />
         <Footer />
       </div>
