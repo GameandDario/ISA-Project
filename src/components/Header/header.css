@@ -5,7 +5,7 @@ h1 {
 }
 
 .mainNavBar {
-    background-color: black;
+    background-color: rgba(0,0,0,0.63);
 }
 
 .navbar-brand {
@@ -13,7 +13,7 @@ h1 {
 }
 
 .navbar-toggler {
-    
+
     visibility: hidden !important;
     /*Toggle button default hide*/
     display: inline;
@@ -89,8 +89,13 @@ h1 {
     width: 20vh;
 }
 
+@media (max-width:412px) {
+    .navbar-toggler {
+        visibility: visible !important;
+    }
+}
 @media (min-width: 413px) {
     .footerHeader {
-        display: none;
+        /* display:; */
     }
 }
