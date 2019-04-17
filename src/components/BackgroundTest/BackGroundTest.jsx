@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './backgroundtest.css'
+import './backgroundtest.css';
 
 export default class BackGroundTest extends Component {
   render() {
@@ -7,9 +7,7 @@ export default class BackGroundTest extends Component {
       <div className="BackgroundTest">
         
       </div>
-    )
+    );
   }
 }
-
-
 
