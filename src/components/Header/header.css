@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900');
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.mainNavBar {
+    background-color: black;
+}
+
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-toggler {
+    /* background-color:rgb(247, 243, 243); */
+    visibility: hidden !important;
+    /*Bouton Toggler caché par défaut*/
+    display: inline;
+}
+
+.footerHeader {
+    background-color: rgb(82, 147, 90);
+    font-family: 'Orbitron', sans-serif;
+}
+
+.shiny {
+    transition: 200ms ease-in;
+    overflow: hidden;
+    position: relative;
+}
+
+.shiny:hover {
+    transform: scale(1.2);
+}
+
+.shiny::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    bottom: -50%;
+    left: -50%;
+    background: linear-gradient(to bottom, rgba(229, 172, 142, 0), rgba(255, 255, 255, 0.5) 50%, rgba(229, 172, 142, 0));
+    transform: rotateZ(60deg) translate(-5em, 7.5em);
+}
+
+.shiny:hover::after,
+.shiny:focus::after {
+    animation: sheen 1s forwards;
+}
+
+.reflection {
+
+    transition: 200ms ease-in;
+    overflow: hidden;
+    position: relative;
+}
+
+.reflection:hover {
+    /* transform: scale(1.2); */
+}
+
+.reflection::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    bottom: -50%;
+    left: -50%;
+    background: linear-gradient(to bottom, rgba(229, 172, 142, 0), rgba(255, 255, 255, 0.5) 50%, rgba(229, 172, 142, 0));
+    transform: rotateZ(60deg) translate(-20em, 70em);
+}
+
+.reflection:hover::after,
+.reflection:focus::after {
+    animation: sheen 2.5s forwards;
+}
+
+@keyframes sheen {
+    100% {
+        transform: rotateZ(60deg) translate(1em, -9em);
+    }
+}
+
+
+@keyframes sheen {
+    100% {
+        transform: rotateZ(60deg) translate(1em, -9em);
+    }
+}
+
+
+.IsaLogo{
+    width: 20vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 413px) {
+    .footerHeader {
+        display: none;
+    }
+}
