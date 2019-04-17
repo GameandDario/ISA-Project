@@ -30,28 +30,28 @@ export default class Footer extends React.Component {
       <div>
         <Nav pills id="navSelected" className="footer-container">
           <div className="footer-left-side">
-          <NavLink a href="http://localhost:3000/" active style={{backgroundColor:'transparent'}}> <img src={icon} style={{ width:'70px'}} alt="logo"/> 
+            <NavLink a href="http://localhost:3000/" active style={{backgroundColor:'transparent'}}> <img src={icon} style={{ width:'70px'}} alt="logo"/> 
             </NavLink>
-          <AboutUs />
-          <ModalExample />
+            <AboutUs />
+            <ModalExample />
           </div>
           <div className="footer-right-side">
           
-          <NavItem >
+            <NavItem >
             
-          </NavItem>
-          <NavItem>
-            <NavLink href="#"><img src={youtube} alt="social media" style={{ width:'45px'}}/></NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink href="#"><img src={linkedin}  alt="social media"style={{ width:'65px'}}/></NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink href="#"><img src={facebook}  alt="social media"style={{ width:'43px'}}/></NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink href="#"><img src={twitter}  alt="social media"style={{ width:'65px'}}/></NavLink>
-          </NavItem>
+            </NavItem>
+            <NavItem>
+              <NavLink href="#"><img src={youtube} alt="social media" style={{ width:'45px'}}/></NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="#"><img src={linkedin}  alt="social media"style={{ width:'65px'}}/></NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="#"><img src={facebook}  alt="social media"style={{ width:'43px'}}/></NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="#"><img src={twitter}  alt="social media"style={{ width:'65px'}}/></NavLink>
+            </NavItem>
           </div>
         </Nav>
       </div>
