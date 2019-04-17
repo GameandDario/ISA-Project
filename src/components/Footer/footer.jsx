@@ -6,6 +6,8 @@ import twitter from './twitter.png';
 import facebook from './facebook.png';
 import linkedin from './linkedin.png';
 import youtube from './youtube.png';
+import AboutUs from '../About/aboutUs';
+import ModalExample from '../Form/modalForm';
 
 export default class Footer extends React.Component {
   constructor(props) {
@@ -26,10 +28,17 @@ export default class Footer extends React.Component {
   render() {
     return (
       <div>
-        <Nav pills id="navSelected">
-          <NavItem >
-            <NavLink a href="http://localhost:3000/" active style={{backgroundColor:'black'}}> <img src={icon} style={{ width:'70px'}} alt="logo"/> 
+        <Nav pills id="navSelected" className="footer-container">
+          <div className="footer-left-side">
+          <NavLink a href="http://localhost:3000/" active style={{backgroundColor:'transparent'}}> <img src={icon} style={{ width:'70px'}} alt="logo"/> 
             </NavLink>
+          <AboutUs />
+          <ModalExample />
+          </div>
+          <div className="footer-right-side">
+          
+          <NavItem >
+            
           </NavItem>
           <NavItem>
             <NavLink href="#"><img src={youtube} alt="social media" style={{ width:'45px'}}/></NavLink>
@@ -43,6 +52,7 @@ export default class Footer extends React.Component {
           <NavItem>
             <NavLink href="#"><img src={twitter}  alt="social media"style={{ width:'65px'}}/></NavLink>
           </NavItem>
+          </div>
         </Nav>
       </div>
     );

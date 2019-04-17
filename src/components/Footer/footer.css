@@ -1,3 +1,20 @@
 #navSelected {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.801);
+    align-items: center
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left-side, .footer-right-side {
+    display: flex;
+    align-items: center;
+}
+
+.btn-danger{
+    margin-right: 5px;
+
 }
