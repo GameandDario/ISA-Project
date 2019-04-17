@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './components/Map/Map.css';
 import Stream from './components/Stream/Stream';
 import Footer from './components/Footer/footer';
-
 // import par stef
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faEnvelope, faKey, faSun, faMoon } from '@fortawesome/free-solid-svg-icons';

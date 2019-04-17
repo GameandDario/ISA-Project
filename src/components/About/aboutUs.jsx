@@ -77,14 +77,14 @@ class AboutUs extends React.Component {
     const externalCloseBtn = <button className="close" style={{ position: 'absolute', top: '15px', right: '15px' }} onClick={this.toggle}>&times;</button>;
     return (
       <div>
-        <Button Button outline color="secondary" onClick={this.toggle}>{this.props.buttonLabel}About Us</Button>
+        <Button outline color="secondary" onClick={this.toggle}>{this.props.buttonLabel}About Us</Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className} external={externalCloseBtn}>
           <ModalHeader style={{backgroundColor:'black',color:'white'}}>About Us</ModalHeader>
           <ModalBody style={{backgroundColor:'black'}}>
             <Pictures />
           </ModalBody>
           <ModalFooter style={{backgroundColor:'black', color:'white'}}>
-            <Button color="danger" onClick={this.toggle}>Cancel</Button>
+            <Button color="secondary" onClick={this.toggle}>Cancel</Button>
           </ModalFooter>
         </Modal>
       </div>
