@@ -13,7 +13,7 @@ h1 {
 }
 
 .navbar-toggler {
-    
+
     visibility: hidden !important;
     /*Toggle button default hide*/
     display: inline;
@@ -85,7 +85,7 @@ h1 {
     }
 }
 
-.IsaLogo{
+.IsaLogo {
     width: 20vh;
 }
 
