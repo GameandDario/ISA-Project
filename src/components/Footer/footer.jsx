@@ -8,6 +8,8 @@ import linkedin from './linkedin.png';
 import youtube from './youtube.png';
 import AboutUs from '../About/aboutUs';
 import ModalExample from '../Form/modalForm';
+import YouKnow from '../DoYouKnow/youKnow';
+import LegalMention from '../LegalMention/legalMention';
 
 export default class Footer extends React.Component {
   constructor(props) {
@@ -32,7 +34,9 @@ export default class Footer extends React.Component {
           <div className="footer-left-side">
             <NavLink a href="http://localhost:3000/" active style={{ backgroundColor: 'transparent' }}> <img src={icon} style={{ width: '70px' }} alt="logo" />
             </NavLink>
+            <YouKnow/>
             <AboutUs />
+            <LegalMention/>
             <ModalExample />
           </div>
           <div className="footer-right-side">
