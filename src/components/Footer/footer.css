@@ -16,5 +16,11 @@
 
 .btn-danger{
     margin-right: 5px;
-
 }
+
+@media (max-width:412px){
+    #navSelected{
+         display:none;
+    }
+}
+    

@@ -14,16 +14,15 @@ h1 {
 
 .navbar-toggler {
 
-    visibility: hidden !important;
-    /*Toggle button default hide*/
+    /* visibility: hidden !important; */
     display: inline;
+} 
+.IsaLogo{
+    width: 20vh;
 }
 
-.footerHeader {
-    background-color: rgb(82, 147, 90);
-    font-family: 'Orbitron', sans-serif;
-}
 
+/* Animation & fx  */
 .shiny {
     transition: 200ms ease-in;
     overflow: hidden;
@@ -85,17 +84,14 @@ h1 {
     }
 }
 
-.IsaLogo{
-    width: 20vh;
-}
-
 @media (max-width:412px) {
     .navbar-toggler {
         visibility: visible !important;
     }
 }
 @media (min-width: 413px) {
-    .footerHeader {
-        /* display:; */
-    }
+    .footerinHeader {
+        /* display:none; */
+
+     }
 }

@@ -10,6 +10,7 @@ import {
 } from 'reactstrap';
 import './header.css';
 import FooterinHeader from './FooterinHeader';
+
 export default class Header extends React.Component {
   constructor(props) {
     super(props);
