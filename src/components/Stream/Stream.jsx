@@ -27,26 +27,31 @@ export default class Stream extends Component {
         <Container className="videoLayout">
           <Row className="videoLayout">
             {/* Call react-simple-video */}
-            <VideoPlayer url={this.state.videoUrl} autoplay />
+            <VideoPlayer 
+              url={this.state.videoUrl} 
+              // width='100%'
+              // aspectRatio='16:9'
+              height='25.3vh'
+              autoplay />
             
             <ButtonGroup vertical className="videoLayout">
               <Button className="videoLayout"
                 color="dark" 
                 onClick={() => this.onRadioBtnClick('video1', 'https://www.youtube.com/watch?v=HtrMUqV1HQc')} 
                 disabled={this.state.currentVideo === 'video1'}
-              >Video 1</Button>
+              >1</Button>
 
               <Button 
                 color="dark"
                 onClick={() => this.onRadioBtnClick('video2', 'https://www.youtube.com/watch?v=4993sBLAzGA')} 
                 disabled={this.state.currentVideo === 'video2'}
-              >Video 2</Button>
+              >2</Button>
                                     
               <Button
                 color="dark" 
                 onClick={() => this.onRadioBtnClick('video3', 'https://www.youtube.com/watch?v=qnTsIVYxYkc')} 
                 disabled={this.state.currentVideo === 'video3'}
-              >Video 3</Button>
+              >3</Button>
             </ButtonGroup>
           </Row>
         </Container>
