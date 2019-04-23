@@ -89,9 +89,9 @@ h1 {
         visibility: visible !important;
     }
 }
-@media (min-width: 413px) {
+@media (min-width: 412px) {
     .footerinHeader {
-        /* display:none; */
+        display:none;
 
      }
 }

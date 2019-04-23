@@ -1,6 +1,7 @@
 #navSelected {
     background-color: rgba(0, 0, 0, 0.63) !important;
-    align-items: center
+    align-items: center;
+
 }
 
 .footer-container {
@@ -9,18 +10,22 @@
     justify-content: space-between;
 }
 
-.footer-left-side, .footer-right-side {
+.footer-left-side,
+.footer-right-side {
     display: flex;
     align-items: center;
 }
 
-.btn-danger{
+.btn-danger {
     margin-right: 5px;
 }
 
-@media (max-width:412px){
-    #navSelected{
-         display:none;
+@media (max-width:412px) {
+    #navSelected {
+        display: none;
     }
 }
-    
+
+.btn-outline-secondary {
+    margin-right: 10px;
+}

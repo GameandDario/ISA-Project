@@ -21,7 +21,7 @@ const Pictures = () => {
         </Media>
       </Media>
       <Media className="mt-1">
-        <Media left bottom href="https://scontent-cdg2-1.xx.fbcdn.net/v/t1.15752-9/57239024_358222488118260_3524599920017276928_n.png?_nc_cat=106&_nc_ht=scontent-cdg2-1.xx&oh=a9df81978ad117561985444bfde8666c&oe=5D3C6B44">
+        <Media left bottom href="https://trello-attachments.s3.amazonaws.com/5cb827337a02c336a637e1d9/768x960/cffbcb1f9173e6e5cc6a30f0529e6c3a/steph2.png">
           <img src={steph} alt="steph" width="210"/>
         </Media>
         <Media body style={{backgroundColor:'black', color:'white'}}>
