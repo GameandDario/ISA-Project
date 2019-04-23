@@ -4,9 +4,7 @@ import {
   Navbar,
   NavbarToggler,
   NavbarBrand,
-  Nav,
-  NavItem,
-
+  Nav
 } from 'reactstrap';
 import './header.css';
 import FooterinHeader from './FooterinHeader';
@@ -36,7 +34,7 @@ export default class Header extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar>
             
-                <FooterinHeader className="navbar-toggler"/>
+              <FooterinHeader className="navbar-toggler"/>
               
             </Nav>
           </Collapse>

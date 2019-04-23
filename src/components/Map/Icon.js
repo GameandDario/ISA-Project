@@ -1,6 +1,4 @@
 import L from 'leaflet';
-import IssMarker from './../IssMarker/IssMarker'
-
 
 const iconPerson = new L.Icon({
   // iconUrl=IssMarker,

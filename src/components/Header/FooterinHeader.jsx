@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './footerinheader.css';
 import { Nav, NavItem, NavLink } from 'reactstrap';
 import icon from '../Footer/icon.png';
 import twitter from '../Footer/twitter.png';
@@ -9,6 +8,8 @@ import youtube from '../Footer/youtube.png';
 import AboutUs from '../About/aboutUs';
 import YouKnow from '../DoYouKnow/youKnow';
 import LegalMention from '../LegalMention/legalMention';
+
+import './footerinheader.css';
 
 export default class FooterinHeader extends Component {
   render() {
@@ -39,6 +40,6 @@ export default class FooterinHeader extends Component {
         </Nav>
         
       </div>
-    )
+    );
   }
 }
