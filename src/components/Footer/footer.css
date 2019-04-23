@@ -15,6 +15,10 @@
   align-items: center;
 }
 
-.btn-danger {
-  margin-right: 5px;
+.btn-danger{
+    margin-right: 5px;
+
+}
+.btn-outline-secondary{
+    margin-right: 10px;
 }
