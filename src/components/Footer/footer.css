@@ -20,9 +20,9 @@
     margin-right: 5px;
 }
 
-@media (max-width:412px) {
+@media (max-width:769px) {
     #navSelected {
-        display: none;
+        visibility: hidden;
     }
 }
 

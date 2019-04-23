@@ -1,25 +1,67 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900');
 
+.IsaLogo{
+    width: 20vw;
+}
 h1 {
     font-family: 'Orbitron', sans-serif;
+
 }
 
 .mainNavBar {
     background-color: rgba(0,0,0,0.63);
 }
 
-.navbar-brand {
-    color: white;
-}
 
 .navbar-toggler {
 
-    /* visibility: hidden !important; */
+    visibility: hidden !important;
     display: inline;
 } 
-.IsaLogo{
-    width: 20vh;
+/* @media (max-width:768px) {
+    .navbar-toggler {
+        visibility: visible !important;
+    }
+} */
+
+#footerinHeader {
+    visibility: hidden !important;
+    display: inline;
 }
+
+@media (max-width: 768px) {
+    #footerinHeader {
+        visibility: visible !important;
+    }
+    .navbar-toggler {
+            visibility: visible !important;
+    }
+}
+@media (min-width: 768px) {
+    h1{
+        margin-left: 25%;
+        color: red;
+        
+    }
+    .brand {
+        font-size: 160px;
+        
+    }
+}
+
+@media (min-width: 1224px) {
+    h1{
+        margin-left: 27%;
+
+    }
+}
+
+@media (min-width: 1824px) {
+    h1{
+        margin-left: 35%;
+    }
+}
+
 
 
 /* Animation & fx  */
@@ -84,14 +126,3 @@ h1 {
     }
 }
 
-@media (max-width:412px) {
-    .navbar-toggler {
-        visibility: visible !important;
-    }
-}
-@media (min-width: 412px) {
-    .footerinHeader {
-        display:none;
-
-     }
-}

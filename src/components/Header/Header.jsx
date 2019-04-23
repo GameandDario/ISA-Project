@@ -31,11 +31,11 @@ export default class Header extends React.Component {
         <Navbar className="mainNavBar navbar-dark reflection" expand="md">
           <img src="https://trello-attachments.s3.amazonaws.com/5ca317fe74fb540c9a1cb88b/5ca3812724de1a74acaa7030/a70647b2759f978c83fe1dcfb941f303/LOGO_ISA.png" 
             className="IsaLogo" alt="IsaLogo" />
-          <h1><NavbarBrand href="/">SPOT THE ISS </NavbarBrand></h1>
-          <NavbarToggler className="bg-dark light" onClick={this.toggle} />
+          <h1><NavbarBrand className="brand" href="/">SPOT THE ISS </NavbarBrand></h1>
+          <NavbarToggler className="bg-dark light navbar-toggler" onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
-              <NavItem className="footerinHeader">
+              <NavItem id="footerinHeader">
                 <FooterinHeader />
               </NavItem>
             </Nav>
