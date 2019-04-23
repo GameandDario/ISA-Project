@@ -34,10 +34,10 @@ export default class Header extends React.Component {
           <h1><NavbarBrand className="brand" href="/">SPOT THE ISS </NavbarBrand></h1>
           <NavbarToggler className="bg-dark light navbar-toggler" onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
-              <NavItem id="footerinHeader">
-                <FooterinHeader />
-              </NavItem>
+            <Nav navbar>
+            
+                <FooterinHeader className="navbar-toggler"/>
+              
             </Nav>
           </Collapse>
         </Navbar>

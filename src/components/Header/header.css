@@ -14,38 +14,28 @@ h1 {
 
 
 .navbar-toggler {
-
     visibility: hidden !important;
     display: inline;
 } 
-/* @media (max-width:768px) {
-    .navbar-toggler {
-        visibility: visible !important;
-    }
-} */
 
-#footerinHeader {
+
+/* #footerinHeader {
     visibility: hidden !important;
     display: inline;
-}
+} */
 
 @media (max-width: 768px) {
-    #footerinHeader {
+    /* #footerinHeader {
         visibility: visible !important;
-    }
+    } */
     .navbar-toggler {
             visibility: visible !important;
     }
 }
+/* media h1 */
 @media (min-width: 768px) {
     h1{
-        margin-left: 25%;
-        color: red;
-        
-    }
-    .brand {
-        font-size: 160px;
-        
+        margin-left: 25%;     
     }
 }
 

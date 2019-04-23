@@ -33,3 +33,13 @@
 .leaflet-control{
   border: none !important
 }
+
+@media (max-width:768px) {
+  .leaflet-control-zoom-out{
+    visibility: hidden !important;
+  }
+  .leaflet-control-zoom-in{
+    visibility: hidden !important;
+  }
+}
+
