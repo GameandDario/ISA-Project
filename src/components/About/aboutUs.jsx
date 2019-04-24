@@ -3,7 +3,7 @@ import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import { Media } from 'reactstrap';
 import jean from './jean.jpeg';
 import dan from './dan.jpeg';
-import steph from './steph.png';
+import steph from './steph2.png';
 import clea from './clea.png';
 
 const Pictures = () => {
