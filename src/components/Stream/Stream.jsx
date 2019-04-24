@@ -25,7 +25,7 @@ export default class Stream extends Component {
     return (
       <div>
         <Container className="videoLayout">
-          <Row className="videoLayout">
+          <Row className='videoBorder'>
             {/* Call react-simple-video */}
             <VideoPlayer url={this.state.videoUrl} autoplay />
             
