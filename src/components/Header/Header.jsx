@@ -9,7 +9,6 @@ import {
   NavLink,
 } from 'reactstrap';
 import './header.css';
-import { Button, Modal, ModalHeader, ModalBody } from 'reactstrap';
 import YouKnow from '../DoYouKnow/youKnow';
 import AboutUs from '../About/aboutUs';
 import LegalMention from '../LegalMention/legalMention';
@@ -31,7 +30,6 @@ export default class Header extends React.Component {
     });
   }
   render() {
-    const externalCloseBtn = <button className="close" style={{ position: 'absolute', top: '15px', right: '15px' }} onClick={this.toggle}>&times;</button>;
     return (
       <div>
         <Navbar className="mainNavBar navbar-dark reflection" expand="md">
