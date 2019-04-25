@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900');
 
 .IsaLogo{
-    width: 20vw;
+    width: 15vw;
+    min-width: 15vw;
 }
 h1 {
     font-family: 'Orbitron', sans-serif;
@@ -10,29 +11,27 @@ h1 {
 
 .mainNavBar {
     background-color: rgba(0,0,0,0.63);
+
+    
 }
 
 
 .navbar-toggler {
     visibility: hidden !important;
     display: inline;
+    
 } 
 
 
-/* #footerinHeader {
-    visibility: hidden !important;
-    display: inline;
-} */
+
 
 @media (max-width: 768px) {
-    /* #footerinHeader {
-        visibility: visible !important;
-    } */
+
     .navbar-toggler {
             visibility: visible !important;
     }
 }
-/* media h1 */
+
 @media (min-width: 768px) {
     h1{
         margin-left: 25%;     
@@ -53,66 +52,4 @@ h1 {
 }
 
 
-
-/* Animation & fx  */
-.shiny {
-    transition: 200ms ease-in;
-    overflow: hidden;
-    position: relative;
-}
-
-.shiny:hover {
-    transform: scale(1.2);
-}
-
-.shiny::after {
-    content: '';
-    position: absolute;
-    top: -50%;
-    right: -50%;
-    bottom: -50%;
-    left: -50%;
-    background: linear-gradient(to bottom, rgba(229, 172, 142, 0), rgba(255, 255, 255, 0.5) 50%, rgba(229, 172, 142, 0));
-    transform: rotateZ(60deg) translate(-5em, 7.5em);
-}
-
-.shiny:hover::after,
-.shiny:focus::after {
-    animation: sheen 1s forwards;
-}
-
-.reflection {
-
-    transition: 200ms ease-in;
-    overflow: hidden;
-    position: relative;
-}
-
-.reflection::after {
-    content: '';
-    position: absolute;
-    top: -50%;
-    right: -50%;
-    bottom: -50%;
-    left: -50%;
-    background: linear-gradient(to bottom, rgba(229, 172, 142, 0), rgba(255, 255, 255, 0.5) 50%, rgba(229, 172, 142, 0));
-    transform: rotateZ(60deg) translate(-20em, 70em);
-}
-
-.reflection:hover::after,
-.reflection:focus::after {
-    animation: sheen 2.5s forwards;
-}
-
-@keyframes sheen {
-    100% {
-        transform: rotateZ(60deg) translate(1em, -9em);
-    }
-}
-
-@keyframes sheen {
-    100% {
-        transform: rotateZ(60deg) translate(1em, -9em);
-    }
-}
 
