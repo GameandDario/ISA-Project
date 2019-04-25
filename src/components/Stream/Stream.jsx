@@ -1,21 +1,19 @@
-// Call App component with "<Stream/>"
+// Call App component with "<Stream />"
 import React, { Component } from 'react';
 import VideoPlayer from 'react-simple-video-player';
 import { ButtonGroup, Button, Container, Row } from 'reactstrap';
 
-// Import CSS
 import './stream.css';
 
 export default class Stream extends Component {
-//Initilising States with 2 states : currentVideo and videoUrl
-  constructor (props) {
+  constructor(props) {
     super(props);
     this.state = { 
       currentVideo: 'video1',
-      videoUrl: 'https://www.youtube.com/watch?v=qnTsIVYxYkc'
+      videoUrl: 'https://www.youtube.com/watch?v=qnTsIVYxYkc',
     };
   }
-  //On click button to modify states 
+  
   onRadioBtnClick(currentVideo, videoUrl) {
     this.setState({ currentVideo, videoUrl });
   }
@@ -26,12 +24,11 @@ export default class Stream extends Component {
       <div>
         <Container className="videoLayout">
           <Row className="videoLayout">
-            {/* Call react-simple-video */}
             <VideoPlayer 
               url={this.state.videoUrl} 
               // width='100%'
               // aspectRatio='16:9'
-              height='25.3vh'
+              height='156'
               autoplay />
             
             <ButtonGroup vertical className="videoLayout">
