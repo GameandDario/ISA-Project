@@ -6,7 +6,11 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
+<<<<<<< HEAD
   NavLink
+=======
+  NavLink,
+>>>>>>> b9756f28fada78744ebd87cbe3fda8684f733cc1
 } from 'reactstrap';
 import './header.css';
 
@@ -33,12 +37,18 @@ export default class Header extends React.Component {
           <h1><NavbarBrand className="brand" href="/">SPOT THE ISS </NavbarBrand></h1>
           <NavbarToggler className="bg-dark light navbar-toggler" onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav navbar className="navbar-toggler">
+            <Nav navbar className='navbar-toggler'>
               <NavItem>
-                <NavLink href="/components/">Components</NavLink>
+                <NavLink href='<AboutUs/>'>Did you know ?</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                <NavLink href="https://github.com/reactstrap/reactstrap">About Us</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="https://github.com/reactstrap/reactstrap">Legal</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="https://github.com/reactstrap/reactstrap">Contact US</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
