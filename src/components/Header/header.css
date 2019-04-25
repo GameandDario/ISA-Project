@@ -14,10 +14,6 @@ h1 {
 
 
 .navbar-toggler {
-<<<<<<< HEAD
-
-=======
->>>>>>> c5040efba4989da518fbc6c2ac77bab991aa20e8
     visibility: hidden !important;
     display: inline;
 } 
@@ -120,15 +116,3 @@ h1 {
     }
 }
 
-<<<<<<< HEAD
-.IsaLogo {
-    width: 20vh;
-}
-
-@media (min-width: 413px) {
-    .footerHeader {
-        display: none;
-    }
-}
-=======
->>>>>>> c5040efba4989da518fbc6c2ac77bab991aa20e8
