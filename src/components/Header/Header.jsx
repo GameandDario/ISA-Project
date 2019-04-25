@@ -9,6 +9,12 @@ import {
   NavLink,
 } from 'reactstrap';
 import './header.css';
+import { Button, Modal, ModalHeader, ModalBody } from 'reactstrap';
+import YouKnow from '../DoYouKnow/youKnow';
+import AboutUs from '../About/aboutUs';
+import LegalMention from '../LegalMention/legalMention';
+
+import ModalExample from '../Form/modalForm';
 
 export default class Header extends React.Component {
   constructor(props) {
@@ -25,26 +31,35 @@ export default class Header extends React.Component {
     });
   }
   render() {
+    const externalCloseBtn = <button className="close" style={{ position: 'absolute', top: '15px', right: '15px' }} onClick={this.toggle}>&times;</button>;
     return (
       <div>
         <Navbar className="mainNavBar navbar-dark reflection" expand="md">
-          <img src="https://trello-attachments.s3.amazonaws.com/5ca317fe74fb540c9a1cb88b/5ca3812724de1a74acaa7030/a70647b2759f978c83fe1dcfb941f303/LOGO_ISA.png" 
+          <img src="https://trello-attachments.s3.amazonaws.com/5ca317fe74fb540c9a1cb88b/5ca3812724de1a74acaa7030/a70647b2759f978c83fe1dcfb941f303/LOGO_ISA.png"
             className="IsaLogo" alt="IsaLogo" />
           <h1><NavbarBrand className="brand" href="/">SPOT THE ISS </NavbarBrand></h1>
           <NavbarToggler className="bg-dark light navbar-toggler" onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar className='navbar-toggler'>
               <NavItem>
-                <NavLink href='<AboutUs/>'>Did you know ?</NavLink>
+                <NavLink>
+                  <YouKnow />
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">About Us</NavLink>
+                <NavLink>
+                  <AboutUs/>
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">Legal</NavLink>
+                <NavLink>
+                  <LegalMention/>
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">Contact US</NavLink>
+                <NavLink>
+                  <ModalExample/>
+                </NavLink>
               </NavItem>
             </Nav>
           </Collapse>

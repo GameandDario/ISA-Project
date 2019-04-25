@@ -55,7 +55,7 @@ h1 {
 
 
 /* Animation & fx  */
-.shiny {
+/* .shiny {
     transition: 200ms ease-in;
     overflow: hidden;
     position: relative;
@@ -102,7 +102,7 @@ h1 {
 .reflection:hover::after,
 .reflection:focus::after {
     animation: sheen 2.5s forwards;
-}
+} */
 
 @keyframes sheen {
     100% {
