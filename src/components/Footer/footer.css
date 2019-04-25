@@ -1,7 +1,7 @@
 #navSelected {
     background-color: rgba(0, 0, 0, 0.63) !important;
     align-items: center;
-    
+
 }
 
 .footer-container {
@@ -10,15 +10,35 @@
     justify-content: space-between;
 }
 
-.footer-left-side, .footer-right-side {
+.footer-left-side,
+.footer-right-side {
     display: flex;
     align-items: center;
 }
 
-.btn-danger{
+.btn-danger {
     margin-right: 5px;
 
 }
-.btn-outline-secondary{
+
+.btn-outline-secondary {
     margin-right: 10px;
+}
+
+.btn.btn-outline-secondary {
+    border-color: #021EAB;
+    border-width: 2px;
+    color: darkred;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: x-large;
+
+}
+.btn.btn-outline-secondary:hover {
+    background-color: aliceblue;
+    border-color: #021EAB;
+    border-width: 2px;
+    color: red;
+    font-style: bold;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: xx-large;
 }
