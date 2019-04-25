@@ -18,12 +18,6 @@ h1 {
     display: inline;
 } 
 
-
-/* #footerinHeader {
-    visibility: hidden !important;
-    display: inline;
-} */
-
 @media (max-width: 768px) {
     /* #footerinHeader {
         visibility: visible !important;
@@ -52,35 +46,6 @@ h1 {
     }
 }
 
-
-
-/* Animation & fx  */
-.shiny {
-    transition: 200ms ease-in;
-    overflow: hidden;
-    position: relative;
-}
-
-.shiny:hover {
-    transform: scale(1.2);
-}
-
-.shiny::after {
-    content: '';
-    position: absolute;
-    top: -50%;
-    right: -50%;
-    bottom: -50%;
-    left: -50%;
-    background: linear-gradient(to bottom, rgba(229, 172, 142, 0), rgba(255, 255, 255, 0.5) 50%, rgba(229, 172, 142, 0));
-    transform: rotateZ(60deg) translate(-5em, 7.5em);
-}
-
-.shiny:hover::after,
-.shiny:focus::after {
-    animation: sheen 1s forwards;
-}
-
 .reflection {
 
     transition: 200ms ease-in;
@@ -102,12 +67,6 @@ h1 {
 .reflection:hover::after,
 .reflection:focus::after {
     animation: sheen 2.5s forwards;
-}
-
-@keyframes sheen {
-    100% {
-        transform: rotateZ(60deg) translate(1em, -9em);
-    }
 }
 
 @keyframes sheen {
