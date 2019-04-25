@@ -3,9 +3,20 @@ import { Button, Form, FormGroup, Label, Input} from 'reactstrap';
 import './form.css';
 
 export default class Formul extends React.Component {
+  constructor (props) {
+    super(props);
+    this.onSubmit = this.onSubmit.bind(this);
+  }
+
+  onSubmit (event) {
+    event.preventDefault();
+    var data = new FormData(event.target);
+    console.log(Array.from(data.entries()));
+  }
+
   render() {
     return (
-      <Form id="formGroup">
+      <Form onSubmit={this.onSubmit} id="formGroup">
         <FormGroup >
           <Label for="exampleEmail" style={{backgroundcolor:'black',color:'white'}}>Email</Label>
           <Input type="email" name="email" id="exampleEmail" placeholder="@" />
@@ -24,6 +35,7 @@ export default class Formul extends React.Component {
         </FormGroup>
         <Button>Submit</Button>
       </Form>
+      
     );
   }
 }
