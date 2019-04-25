@@ -9,6 +9,11 @@ import {
   NavLink
 } from 'reactstrap';
 import './header.css';
+import YouKnow from '../DoYouKnow/youKnow';
+import AboutUs from '../About/aboutUs';
+import LegalMention from '../LegalMention/legalMention';
+
+import ModalExample from '../Form/modalForm';
 
 export default class Header extends React.Component {
   constructor(props) {
@@ -35,16 +40,24 @@ export default class Header extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar className='navbar-toggler'>
               <NavItem>
-                <NavLink href='<AboutUs/>'>Did you know ?</NavLink>
+                <NavLink>
+                  <YouKnow />
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">About Us</NavLink>
+                <NavLink>
+                  <AboutUs/>
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">Legal</NavLink>
+                <NavLink>
+                  <LegalMention/>
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">Contact US</NavLink>
+                <NavLink>
+                  <ModalExample/>
+                </NavLink>
               </NavItem>
             </Nav>
           </Collapse>
