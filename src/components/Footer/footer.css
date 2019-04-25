@@ -18,7 +18,12 @@
 
 .btn-danger {
     margin-right: 5px;
+}
 
+@media (max-width:769px) {
+    #navSelected {
+        visibility: hidden;
+    }
 }
 
 .btn-outline-secondary {
