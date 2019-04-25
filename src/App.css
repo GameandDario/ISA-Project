@@ -1,4 +1,14 @@
 .App {
-  text-align: center;
-  background-image: url("./BackgroundApp.jpg");
+    text-align: center;
+    background-image: url("./BackgroundApp.jpg");
+}
+
+.modal-title {
+    font-family: 'Titillium Web', sans-serif;
+    font-style:bold;
+    font-size: x-large;
+}
+
+p {
+    font-family: 'Titillium Web', sans-serif;
 }

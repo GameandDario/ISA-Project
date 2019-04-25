@@ -20,3 +20,7 @@
 #modalSelected {
     background-color: black;
 }
+
+.btn.btn-secondary {
+margin-bottom: 5px;
+}

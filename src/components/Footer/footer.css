@@ -28,3 +28,21 @@
 .btn-outline-secondary {
     margin-right: 10px;
 }
+
+.btn.btn-outline-secondary {
+    border-color: #021EAB;
+    border-width: 2px;
+    color: darkred;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: x-large;
+
+}
+.btn.btn-outline-secondary:hover {
+    background-color: aliceblue;
+    border-color: #021EAB;
+    border-width: 2px;
+    color: red;
+    font-style: bold;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: xx-large;
+}
