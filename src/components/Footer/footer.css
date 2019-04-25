@@ -15,10 +15,16 @@
   align-items: center;
 }
 
-.btn-danger{
+.btn-danger {
     margin-right: 5px;
-
 }
-.btn-outline-secondary{
+
+@media (max-width:769px) {
+    #navSelected {
+        visibility: hidden;
+    }
+}
+
+.btn-outline-secondary {
     margin-right: 10px;
 }

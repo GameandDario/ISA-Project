@@ -1,6 +1,6 @@
 import React from 'react';
 import { Map, Marker, TileLayer } from 'react-leaflet';
-import iconPerson from './Icon';
+import iconPerson from './Icon.jsx';
 
 const LeafletMap = ({lat, lon, zoom, updateZoom}) => {
 
