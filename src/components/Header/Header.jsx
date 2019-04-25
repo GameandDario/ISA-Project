@@ -6,11 +6,7 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-<<<<<<< HEAD
   NavLink
-=======
-  NavLink,
->>>>>>> b9756f28fada78744ebd87cbe3fda8684f733cc1
 } from 'reactstrap';
 import './header.css';
 
