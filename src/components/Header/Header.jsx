@@ -4,10 +4,11 @@ import {
   Navbar,
   NavbarToggler,
   NavbarBrand,
-  Nav
+  Nav,
+  NavItem,
+  NavLink,
 } from 'reactstrap';
 import './header.css';
-import FooterinHeader from './FooterinHeader';
 
 export default class Header extends React.Component {
   constructor(props) {
@@ -32,10 +33,19 @@ export default class Header extends React.Component {
           <h1><NavbarBrand className="brand" href="/">SPOT THE ISS </NavbarBrand></h1>
           <NavbarToggler className="bg-dark light navbar-toggler" onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav navbar>
-            
-              <FooterinHeader className="navbar-toggler"/>
-              
+            <Nav navbar className='navbar-toggler'>
+              <NavItem>
+                <NavLink href='<AboutUs/>'>Did you know ?</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="https://github.com/reactstrap/reactstrap">About Us</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="https://github.com/reactstrap/reactstrap">Legal</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="https://github.com/reactstrap/reactstrap">Contact US</NavLink>
+              </NavItem>
             </Nav>
           </Collapse>
         </Navbar>
