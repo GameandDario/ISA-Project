@@ -45,16 +45,16 @@ export default class Footer extends React.Component {
 
             </NavItem>
             <NavItem>
-              <NavLink href="https://www.youtube.com/channel/UC6OaWVxVXURpicItggIABew"><img src={youtube} alt="social media" style={{ width: '45px' }} /></NavLink>
+              <NavLink href="https://www.youtube.com/channel/UC6OaWVxVXURpicItggIABew"><img src={youtube} id="youtube" alt="social media" style={{ width: '45px'}} /></NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://www.linkedin.com/company/international-space-station/about/"><img src={linkedin} alt="social media" style={{ width: '65px' }} /></NavLink>
+              <NavLink href="https://www.linkedin.com/company/international-space-station/about/"><img src={linkedin} id="linkedin" alt="social media" style={{ width: '65px' }} /></NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://www.facebook.com/ISS/"><img src={facebook} alt="social media" style={{ width: '43px' }} /></NavLink>
+              <NavLink href="https://www.facebook.com/ISS/"><img src={facebook} id="facebookY" alt="social media" style={{ width: '43px' }} /></NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://twitter.com/space_station"><img src={twitter} alt="social media" style={{ width: '65px' }} /></NavLink>
+              <NavLink href="https://twitter.com/space_station"><img src={twitter} id="twitterT" alt="social media" style={{ width: '65px' }} /></NavLink>
             </NavItem>
           </div>
         </Nav>
