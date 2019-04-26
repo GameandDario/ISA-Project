@@ -32,7 +32,7 @@
 
 .btn.btn-outline-secondary {
     border-color: #021EAB;
-    border-width: 2px;
+    border-width: 3px;
     color: darkred;
     font-family: 'Titillium Web', sans-serif;
     font-size: x-large;
@@ -42,9 +42,10 @@
 .btn.btn-outline-secondary:hover {
     background-color: aliceblue;
     border-color: #021EAB;
-    border-width: 2px;
+    border-width: 7px;
+    font-weight: 900;
     color: red;
-    font-style: bold;
+   
     font-family: 'Titillium Web', sans-serif;
     font-size: xx-large;
 }
