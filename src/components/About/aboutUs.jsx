@@ -10,7 +10,7 @@ const Pictures = () => {
   return (
     <div>
       <Media>
-        <Media left top href="https://scontent-ams3-1.xx.fbcdn.net/v/t1.15752-9/56573501_1044023595790789_2763882528094814208_n.jpg?_nc_cat=103&_nc_ht=scontent-ams3-1.xx&oh=d85232ae3c282fc0987d36f84d72f8a4&oe=5D3F840C">
+        <Media left top href="https://scontent-cdg2-1.xx.fbcdn.net/v/t1.15752-9/57703291_409517106264392_1454826201930530816_n.png?_nc_cat=103&_nc_ht=scontent-cdg2-1.xx&oh=3dd4d813f3bec093b6874327e121a770&oe=5D3EF520">
           <img src={jean} alt="jean" width="210"/>
         </Media>
         <Media body style={{backgroundColor:'black', color:'white'}}>
@@ -43,7 +43,7 @@ const Pictures = () => {
         </Media>
       </Media>
       <Media className="mt-1">
-        <Media left bottom href="https://scontent-cdg2-1.xx.fbcdn.net/v/t1.15752-9/57703291_409517106264392_1454826201930530816_n.png?_nc_cat=103&_nc_ht=scontent-cdg2-1.xx&oh=3dd4d813f3bec093b6874327e121a770&oe=5D3EF520">
+        <Media left bottom  href="https://scontent-ams3-1.xx.fbcdn.net/v/t1.15752-9/56573501_1044023595790789_2763882528094814208_n.jpg?_nc_cat=103&_nc_ht=scontent-ams3-1.xx&oh=d85232ae3c282fc0987d36f84d72f8a4&oe=5D3F840C">
           <img src={clea} alt="clea" width="210"/>
         </Media>
         <Media body style={{backgroundColor:'black', color:'white'}}>
