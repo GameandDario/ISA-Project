@@ -11,7 +11,7 @@ export default class Stream extends Component {
     this.state = { 
       currentVideo: 'video1',
       //videoUrl: 'https://www.youtube.com/watch?v=qnTsIVYxYkc',
-      videoUrl: 'https://www.youtube.com/watch?v=Xjs6fnpPWy4'
+      videoUrl: 'https://www.youtube.com/watch?v=Xjs6fnpPWy4l'
     };
   }
   

@@ -20,7 +20,7 @@ class ModalExample extends React.Component {
   }
 
   render() {
-    const externalCloseBtn = <button className="close" style={{ position: 'absolute', top: '15px', right: '15px' }} onClick={this.toggle}>&times;</button>;
+    const externalCloseBtn = <button className="close" style={{ position: 'absolute', top: '15px', right: '15px' }} onClick={this.toggle}></button>;
     return (
       <div>
         <Button outline color="secondary" onClick={this.toggle}>{this.props.buttonLabel}Contact Us</Button>

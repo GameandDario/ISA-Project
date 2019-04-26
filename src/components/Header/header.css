@@ -1,7 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900');
 
 .IsaLogo{
-    width: 20vw;
+    width: 10vw;
+    max-width: 15vw;
+}
+.brand.navbar-brand{
+    font-size: 4vw;
+}
+.bg-dark.light.navbar-toggler{
+    background-color: transparent!important;
+    border-color: #021EAB;
+    border-width: 1.5px;
+}
+.navbar-toggler-icon{
+  background-image: url(../Map/BurgerLogo.png) !important;
+}
+.navbar-toggler.navbar-nav{
+    border: none;
 }
 h1 {
     font-family: 'Orbitron', sans-serif;
