@@ -12,7 +12,7 @@ export default class Stream extends Component {
     super(props);
     this.state = { 
       currentVideo: 'video1',
-      videoUrl: 'https://www.youtube.com/watch?v=qnTsIVYxYkc'
+      videoUrl: 'https://www.youtube.com/watch?v=Xjs6fnpPWy4'
     };
   }
   //On click button to modify states 
@@ -32,7 +32,7 @@ export default class Stream extends Component {
             <ButtonGroup vertical className="videoLayout">
               <Button className="videoLayout"
                 color="dark" 
-                onClick={() => this.onRadioBtnClick('video1', 'https://www.youtube.com/watch?v=HtrMUqV1HQc')} 
+                onClick={() => this.onRadioBtnClick('video1', 'https://www.youtube.com/watch?v=Xjs6fnpPWy4')} 
                 disabled={this.state.currentVideo === 'video1'}
               >Video 1</Button>
 
@@ -44,7 +44,7 @@ export default class Stream extends Component {
                                     
               <Button
                 color="dark" 
-                onClick={() => this.onRadioBtnClick('video3', 'https://www.youtube.com/watch?v=qnTsIVYxYkc')} 
+                onClick={() => this.onRadioBtnClick('video3', 'https://www.youtube.com/watch?v=21X5lGlDOfg')} 
                 disabled={this.state.currentVideo === 'video3'}
               >Video 3</Button>
             </ButtonGroup>
