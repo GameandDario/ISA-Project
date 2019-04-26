@@ -38,13 +38,36 @@
     font-size: x-large;
 
 }
+
 .btn.btn-outline-secondary:hover {
     background-color: aliceblue;
     border-color: #021EAB;
     border-width: 7px;
     font-weight: 900;
     color: red;
-   
+
     font-family: 'Titillium Web', sans-serif;
     font-size: xx-large;
+}
+
+.btn.btn-secondary {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+}
+
+#youtube:hover {
+    width: 70px !important;
+    filter: drop-shadow(16px 16px 20px red) invert(4%);;
+}
+#facebookY:hover {
+    width: 70px !important;
+    filter: drop-shadow(16px 16px 20px rgb(44, 100, 255)) invert(4%);;
+}
+#linkedin:hover {
+    width: 80px !important;
+    filter: drop-shadow(16px 16px 20px rgb(58, 187, 230) ) invert(4%);;
+}
+img#twitterT:hover {
+    width: 80px !important;
+    filter: drop-shadow(3px 16px 10px rgb(4, 238, 187));
 }
