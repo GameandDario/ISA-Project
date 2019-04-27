@@ -45,25 +45,30 @@ h1 {
             visibility: visible !important;
     }
 }
+@media (max-width: 768px) {
+    .brand.navbar-brand{
+        margin-left: 13%;     
+    }
+}
 
-@media (min-width: 768px) {
-    h1{
-        margin-left: 25%;     
+ @media (min-width: 768px) {
+    .brand.navbar-brand{
+        margin-left: 64%;     
     }
 }
 
 @media (min-width: 1224px) {
-    h1{
-        margin-left: 27%;
+    .brand.navbar-brand{
+        margin-left: 72%;
 
     }
 }
 
 @media (min-width: 1824px) {
     h1{
-        margin-left: 35%;
+        margin-left: 80%;
     }
-}
+} 
 
 
 
