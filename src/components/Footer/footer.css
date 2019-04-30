@@ -21,7 +21,7 @@
 
 @media (max-width:769px) {
     #navSelected {
-        visibility: hidden;
+        display: none !important;
     }
 }
 

@@ -25,7 +25,7 @@ export default class Footer extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id='navSelected'>
         <Nav pills id="navSelected" className="footer-container">
           <div className="footer-left-side">
             <NavLink a href="http://localhost:3000/" active style={{ backgroundColor: 'transparent' }}> <img src={icon} style={{ width: '70px' }} alt="logo" />
