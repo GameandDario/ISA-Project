@@ -6,7 +6,7 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
+  NavLink
 } from 'reactstrap';
 import './header.css';
 import YouKnow from '../DoYouKnow/youKnow';
@@ -65,4 +65,4 @@ export default class Header extends React.Component {
       </div>
     );
   }
-}
+} 
