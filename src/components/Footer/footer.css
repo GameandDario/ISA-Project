@@ -59,23 +59,23 @@
 }
 
 .fab.fa-youtube.fa-2x:hover {
-    color: red;
+    color:#de5246;
 }
 .fab.fa-facebook-square.fa-2x{
     color: white;
 }
 .fab.fa-facebook-square.fa-2x:hover {
-    color: darkblue;
+    color:#3b5998;
 }
 .fab.fa-linkedin.fa-2x{
     color: white;
 }
 .fab.fa-linkedin.fa-2x:hover {
-    color: cadetblue;
+    color: #0e76a8;
 }
 .fab.fa-twitter.fa-2x{
     color: white;
 }
 .fab.fa-twitter.fa-2x:hover {
-    color: lightseagreen;
+    color: #00acee;
 }
