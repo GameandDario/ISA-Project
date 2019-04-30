@@ -55,19 +55,28 @@
     font-weight: 600;
 }
 
-#youtube:hover {
-    width: 70px !important;
-    filter: drop-shadow(16px 16px 20px red) invert(4%);;
+.fab.fa-youtube.fa-2x{
+    color: white;
 }
-#facebookY:hover {
-    width: 70px !important;
-    filter: drop-shadow(16px 16px 20px rgb(44, 100, 255)) invert(4%);;
+
+.fab.fa-youtube.fa-2x:hover {
+    color: red;
 }
-#linkedin:hover {
-    width: 80px !important;
-    filter: drop-shadow(16px 16px 20px rgb(58, 187, 230) ) invert(4%);;
+.fab.fa-facebook-square.fa-2x{
+    color: white;
 }
-img#twitterT:hover {
-    width: 80px !important;
-    filter: drop-shadow(3px 16px 10px rgb(4, 238, 187));
+.fab.fa-facebook-square.fa-2x:hover {
+    color: darkblue;
+}
+.fab.fa-linkedin.fa-2x{
+    color: white;
+}
+.fab.fa-linkedin.fa-2x:hover {
+    color: cadetblue;
+}
+.fab.fa-twitter.fa-2x{
+    color: white;
+}
+.fab.fa-twitter.fa-2x:hover {
+    color: lightseagreen;
 }
