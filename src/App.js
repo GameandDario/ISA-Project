@@ -18,7 +18,7 @@ class App extends Component {
         <Header />
         <MapApi />
         <Stream />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }

@@ -1,28 +1,28 @@
 .leaflet-container {
-    height: 50vh;
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    border: solid 2px #4d0000;
-    margin-bottom: 5px;
+  height: 50vh;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 2px #4d0000;
+  margin-bottom: 5px;
 }
 
-  .leaflet-div-icon {
-    background: #a52a2a !important;
-    border-radius: 50px;
-    color: white;
-   border: solid 1px orange !important;
-  
-    
+.leaflet-div-icon {
+  position: relative;
+  background: #021EAB !important;
+  border-radius: 50px;
+  color: white;
+  border: solid 3px #CB2A2A !important;
 }
 
 .leaflet-control-zoom-in {
   background-color: rgba(255, 255, 255, 0.404) !important;
   border-radius: 50px !important;
   color: white !important;
-  border:5px !important;
+  border: 5px !important;
   border: none !important;
 }
+
 .leaflet-control-zoom-out {
   background-color: rgba(255, 255, 255, 0.404) !important;
   border-radius: 50px !important;
@@ -30,22 +30,24 @@
   border: none !important;
 }
 
-.leaflet-control-zoom{
+.leaflet-control-zoom {
   border: none !important
-} 
-.leaflet-bar{
+}
+
+.leaflet-bar {
   border: none !important
-} 
-.leaflet-control{
+}
+
+.leaflet-control {
   border: none !important
 }
 
 @media (max-width:768px) {
-  .leaflet-control-zoom-out{
+  .leaflet-control-zoom-out {
     visibility: hidden !important;
   }
-  .leaflet-control-zoom-in{
+
+  .leaflet-control-zoom-in {
     visibility: hidden !important;
   }
 }
-
