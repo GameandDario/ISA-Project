@@ -2,10 +2,11 @@
     display: flex;
     justify-content: center;
     flex-wrap: nowrap !important;
-    background-color: rgba (255, 255, 0, 0) ;
-    
+    background-color: rgba (255, 255, 0, 0);
+
 }
 
 .videoBorder {
     border: solid 2px #4d0000;
+    size: 100%;
 }

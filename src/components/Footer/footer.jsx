@@ -2,10 +2,6 @@ import React from 'react';
 import { Nav, NavItem, NavLink } from 'reactstrap';
 import './footer.css';
 import icon from './icon.png';
-import twitter from './twitter.png';
-import facebook from './facebook.png';
-import linkedin from './linkedin.png';
-import youtube from './youtube.png';
 import AboutUs from '../About/aboutUs';
 import ModalExample from '../Form/modalForm';
 import YouKnow from '../DoYouKnow/youKnow';
@@ -45,16 +41,16 @@ export default class Footer extends React.Component {
 
             </NavItem>
             <NavItem>
-              <NavLink href="https://www.youtube.com/channel/UC6OaWVxVXURpicItggIABew"><img src={youtube} id="youtube" alt="social media" style={{ width: '45px'}} /></NavLink>
+              <NavLink href="https://www.youtube.com/channel/UC6OaWVxVXURpicItggIABew"><i class="fab fa-youtube fa-2x"></i></NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://www.linkedin.com/company/international-space-station/about/"><img src={linkedin} id="linkedin" alt="social media" style={{ width: '65px' }} /></NavLink>
+              <NavLink href="https://www.linkedin.com/company/international-space-station/about/"><i class="fab fa-linkedin fa-2x" ></i></NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://www.facebook.com/ISS/"><img src={facebook} id="facebookY" alt="social media" style={{ width: '43px' }} /></NavLink>
+              <NavLink href="https://www.facebook.com/ISS/"><i class="fab fa-facebook-square fa-2x" ></i></NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://twitter.com/space_station"><img src={twitter} id="twitterT" alt="social media" style={{ width: '65px' }} /></NavLink>
+              <NavLink href="https://twitter.com/space_station"><i class="fab fa-twitter fa-2x"></i></NavLink>
             </NavItem>
           </div>
         </Nav>
