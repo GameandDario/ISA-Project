@@ -35,29 +35,30 @@ display: inline;
 .navbar-toggler {
         visibility: visible !important;
 }
-}
 @media (max-width: 768px) {
-.brand.navbar-brand{
-margin-left: 13%;
-}
+    .brand.navbar-brand{
+        margin-left:0;     
+    }
 }
 
-@media (min-width: 768px) {
-.brand.navbar-brand{
-margin-left: 64%;
-}
+ @media (min-width: 768px) {
+    .brand.navbar-brand{
+        margin-left:65%;     
+    }
 }
 
 @media (min-width: 1224px) {
-.brand.navbar-brand{
-margin-left: 72%;
+    .brand.navbar-brand{
+        margin-left: 65%;
 
-}
+    }
 }
 
 @media (min-width: 1824px) {
-h1{
-margin-left: 80%;
-}
-}
+    .brand.navbar-brand{
+        margin-left: 65%;
+    }
+} 
+
+
 

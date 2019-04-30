@@ -38,7 +38,7 @@ export default class Header extends React.Component {
           <h1><NavbarBrand className="brand" href="/">SPOT THE ISS </NavbarBrand></h1>
           <NavbarToggler className="bg-dark light navbar-toggler" onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav navbar className='navbar-toggler'>
+            <Nav navbar className='navbar-toggler '>
               <NavItem>
                 <NavLink>
                   <YouKnow />
@@ -59,6 +59,7 @@ export default class Header extends React.Component {
                   <ModalExample/>
                 </NavLink>
               </NavItem>
+              <div className=""></div>
             </Nav>
           </Collapse>
         </Navbar>
