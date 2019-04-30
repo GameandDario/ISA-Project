@@ -35,6 +35,7 @@ display: inline;
 .navbar-toggler {
         visibility: visible !important;
 }
+}
 @media (max-width: 768px) {
     .brand.navbar-brand{
         margin-left:0;     
