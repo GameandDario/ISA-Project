@@ -45,6 +45,13 @@ h1 {
             visibility: visible !important;
     }
 }
+
+@media (orientation :landscape) and (max-width:1025px) {
+    .navbar-toggler {
+        visibility: visible !important;
+}
+
+}
 @media (max-width: 768px) {
     .brand.navbar-brand{
         margin-left:0;     

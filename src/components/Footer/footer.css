@@ -21,9 +21,19 @@
 }
 
 @media (max-width:769px) {
+    #globalFooter {
+        visibility: hidden;
+    }
     #navSelected {
         visibility: hidden;
     }
+}
+
+@media (orientation :landscape) and (max-width:1024px) {
+    #globalFooter {
+        visibility: hidden;
+    }
+
 }
 
 .btn-outline-secondary {

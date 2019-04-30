@@ -1,0 +1,44 @@
+.leaflet-div-icon {
+    position :relative;
+    background: #021EAB  !important;
+    border-radius: 50px;
+    color: white;
+    border: solid 3px #CB2A2A !important;  
+}
+.leaflet-div-icon:before {
+  content: "";
+  position: absolute;
+  right: 7.5px;
+  top: 7.5px;
+  width: 160px;
+  height: 160px;
+  background-color:  #021EAB;
+  border-radius: 50%;
+}
+
+.leaflet-div-icon:after {
+  content: "";
+  position: absolute;
+  left: -2.5px;
+  top: -2.5px;
+  width: 80px;
+  height: 80px;
+  border: #CB2A2A 3px;
+  border-radius: 50%;
+}
+@keyframes pulsation {
+  0% {
+      transform: scale()
+  }
+
+  100% {
+      transform: scale(2)
+  }
+}
+
+.leaflet-div-icon:after {
+  animation-name: pulsation;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
