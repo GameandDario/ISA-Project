@@ -10,23 +10,12 @@ const Pictures = () => {
   return (
     <div>
       <Media>
-        <Media left top href="https://scontent-cdg2-1.xx.fbcdn.net/v/t1.15752-9/57703291_409517106264392_1454826201930530816_n.png?_nc_cat=103&_nc_ht=scontent-cdg2-1.xx&oh=3dd4d813f3bec093b6874327e121a770&oe=5D3EF520">
-          <img src={jean} alt="jean" width="210"/>
+        <Media left top href="https://trello-attachments.s3.amazonaws.com/5cc2f4e62c8eae2f8f6e9419/768x960/0d9e4feb9e588c042b361efcc2eeff7a/clea.png">
+          <img src={clea} alt="clea" width="210"/>
         </Media>
         <Media body style={{backgroundColor:'black', color:'white'}}>
           <Media heading>
-            Jean
-          </Media>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-        </Media>
-      </Media>
-      <Media className="mt-1">
-        <Media left bottom href="https://trello-attachments.s3.amazonaws.com/5cb827337a02c336a637e1d9/768x960/cffbcb1f9173e6e5cc6a30f0529e6c3a/steph2.png">
-          <img src={steph} alt="steph" width="210"/>
-        </Media>
-        <Media body style={{backgroundColor:'black', color:'white'}}>
-          <Media heading>
-            Stéphane
+            Cléa
           </Media>
           Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
         </Media>
@@ -43,12 +32,23 @@ const Pictures = () => {
         </Media>
       </Media>
       <Media className="mt-1">
-        <Media left bottom  href="https://scontent-ams3-1.xx.fbcdn.net/v/t1.15752-9/56573501_1044023595790789_2763882528094814208_n.jpg?_nc_cat=103&_nc_ht=scontent-ams3-1.xx&oh=d85232ae3c282fc0987d36f84d72f8a4&oe=5D3F840C">
-          <img src={clea} alt="clea" width="210"/>
+        <Media left bottom href="https://trello-attachments.s3.amazonaws.com/5cb827337a02c336a637e1d9/768x960/cffbcb1f9173e6e5cc6a30f0529e6c3a/steph2.png">
+          <img src={steph} alt="steph" width="210"/>
         </Media>
         <Media body style={{backgroundColor:'black', color:'white'}}>
           <Media heading>
-            Cléa
+            Stéphane
+          </Media>
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+        </Media>
+      </Media>
+      <Media className="mt-1">
+        <Media left bottom  href="https://scontent-ams3-1.xx.fbcdn.net/v/t1.15752-9/56573501_1044023595790789_2763882528094814208_n.jpg?_nc_cat=103&_nc_ht=scontent-ams3-1.xx&oh=d85232ae3c282fc0987d36f84d72f8a4&oe=5D3F840C">
+          <img src={jean} alt="jean" width="210"/>
+        </Media>
+        <Media body style={{backgroundColor:'black', color:'white'}}>
+          <Media heading>
+            Jean
           </Media>
           Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
         </Media>

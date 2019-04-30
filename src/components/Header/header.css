@@ -1,62 +1,65 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900');
 
 .IsaLogo{
-    width: 10vw;
-    max-width: 15vw;
+width: 10vw;
+max-width: 15vw;
 }
 .brand.navbar-brand{
-    font-size: 4vw;
+font-size: 4vw;
 }
 .bg-dark.light.navbar-toggler{
-    background-color: transparent!important;
-    border-color: #021EAB;
-    border-width: 1.5px;
+background-color: transparent!important;
+border-color: #021EAB;
+border-width: 1.5px;
 }
 .navbar-toggler-icon{
-  background-image: url(../Map/BurgerLogo.png) !important;
+background-image: url(../Map/BurgerLogo.png) !important;
 }
 .navbar-toggler.navbar-nav{
-    border: none;
+border: none;
 }
 h1 {
-    font-family: 'Orbitron', sans-serif;
+font-family: 'Orbitron', sans-serif;
 
 }
 
 .mainNavBar {
-    background-color: rgba(0,0,0,0.63);
+background-color: rgba(0,0,0,0.63);
 }
-
+.navbar-toggler {
+visibility: hidden !important;
+display: inline;
+}
+@media (max-width: 768px) {
 
 .navbar-toggler {
-    visibility: hidden !important;
-    display: inline;
-} 
-
-@media (max-width: 768px) {
-    /* #footerinHeader {
         visibility: visible !important;
-    } */
-    .navbar-toggler {
-            visibility: visible !important;
+}
+}
+@media (max-width: 768px) {
+    .brand.navbar-brand{
+        margin-left:0;     
     }
 }
-/* media h1 */
-@media (min-width: 768px) {
-    h1{
-        margin-left: 25%;     
+
+ @media (min-width: 768px) {
+    .brand.navbar-brand{
+        margin-left:65%;     
     }
 }
 
 @media (min-width: 1224px) {
-    h1{
-        margin-left: 27%;
+    .brand.navbar-brand{
+        margin-left: 65%;
 
     }
 }
 
 @media (min-width: 1824px) {
-    h1{
-        margin-left: 35%;
+    .brand.navbar-brand{
+        margin-left: 65%;
     }
-}
+} 
+
+
+
