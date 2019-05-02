@@ -3,10 +3,10 @@
 .IsaLogo{
 width: 10vw;
 max-width: 15vw;
-animation: rotateY 2s infinite; 
+animation: rotateY 5s infinite; 
 }
 @-webkit-keyframes rotateY {
-    100% { transform: rotateY( 360deg); }
+    0% { transform: rotateY( 360deg); }
 }
 .brand.navbar-brand{
 font-size: 4vw;
