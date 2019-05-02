@@ -27,6 +27,7 @@ export default class Stream extends Component {
             <VideoPlayer 
               url={this.state.videoUrl} 
               height='295'
+              width='395'
               autoplay />
             
             <ButtonGroup vertical className="videoLayout">
